@@ -1,0 +1,10 @@
+.sidebar-header {
+    block-size: 80px;
+    background-color: var(--grey40);
+}
+
+.sidebar-header img {
+    vertical-align: middle;
+    padding-block: 1rem;
+    padding-inline-start: 1rem;
+}

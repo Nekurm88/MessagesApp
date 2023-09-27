@@ -3,6 +3,12 @@
 @import './chat.css';
 @import './action-list.css';
 @import './message-list.css';
+@import './layout.css';
+@import './sidebar.css';
+@import './user-list.css';
+@import './search.css';
+@import './form.css';
+
 
 
 :root {
@@ -18,7 +24,7 @@
     --green1: #E1F7CB;
     --green2: #56BCA6;
     --body-16regular: 400 1rem/1.25rem Inter;
-    --body-16bold: 7000 1rem/1.25rem Inter;
+    --body-16bold: 700 1rem/1.25rem Inter;
     --body-14regular: 400 0.875rem/1.25rem Inter;
     --body-14regular_u: 500 0.875rem/1.25rem Inter;
     --caption-12bold: 700 0.75rem/1rem Inter;

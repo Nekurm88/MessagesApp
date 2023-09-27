@@ -1,0 +1,15 @@
+.layout {
+    display: flex;
+    
+}
+
+.layout .sidebar {
+    inline-size: 27.5rem;
+    block-size: 100vh;
+    overflow: auto;
+}
+
+.layout .chat {
+    inline-size: 100%;
+    
+}

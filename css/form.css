@@ -1,0 +1,26 @@
+.sidebar-search form{
+    inline-size: 100%;
+    padding: 1rem;
+}
+
+.sidebar-search input{
+    border: none;
+    color: var(--grey10);
+    font: var(--body-16regular);
+    inline-size: 20.5rem;
+    border-radius: 50px;
+    padding-block: 12px;
+    padding-inline: 24px;
+    width: 100%;
+    padding-inline-start: 4rem;
+}
+
+.sidebar-search i{
+    background-image: url(../icons/search.svg);
+    background-repeat: no-repeat;
+    inline-size: 1.5rem;
+    block-size: 1.5rem;
+    position: absolute;
+    left: 2.5rem;
+    margin-block-start: 10px;
+}

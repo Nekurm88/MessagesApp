@@ -1,0 +1,10 @@
+.sidebar-search {
+    display: flex;
+    block-size: 5rem;
+    background: var(--grey30);
+    position: relative;
+    box-sizing: border-box;
+}
+
+
+
