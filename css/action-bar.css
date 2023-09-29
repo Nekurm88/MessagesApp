@@ -1,0 +1,45 @@
+.action-bar {
+    background: var(--grey40);
+    block-size: 84px;
+    display: block;
+    align-items: center;
+    gap: 16px;
+}
+
+.action-bar {
+    display: flex;
+    align-items: center;
+    
+}
+
+.action-button {
+    display: flex;
+    gap: 17px;
+}
+
+.action-secondary {
+    display: flex;
+    flex: 1;
+}
+
+.action-bar form {
+    inline-size: 100%;
+    padding: 1rem;
+}
+
+.action-bar input{ 
+    display: block;
+    inline-size: 47rem;
+    border-radius: 50px;
+    border: none;
+    color: var(--grey10);
+    font: var(--body-16regular);
+    width: 100%;
+    padding-block: 12px;
+    padding-inline-start: 24px;
+}
+
+.microfono {
+    padding-block: 30px;
+    padding-inline: 16px;
+}

@@ -1,6 +1,8 @@
 .sidebar-header {
-    block-size: var(--headerSize);
+    block-size: 110px;
     background-color: var(--grey40);
+    box-sizing: border-box;
+    align-items: center;
 }
 
 .sidebar-header img {

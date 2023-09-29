@@ -5,7 +5,7 @@
 
 .layout .sidebar {
     inline-size: 27.5rem;
-    block-size: 100vh;
+    /*block-size: 100vh;*/
     overflow: auto;
 }
 

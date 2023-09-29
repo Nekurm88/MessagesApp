@@ -1,0 +1,11 @@
+.button-search {
+    border: none;
+    background-image: url(../icons/search.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+    block-size: 40px;
+    inline-size: 40px;
+    cursor: pointer;
+    background-color: var(--grey40);
+    padding: 0;
+}
