@@ -8,3 +8,72 @@
     padding-block: 1rem;
     padding-inline-start: 1rem;
 }
+
+.sidebar-userList {
+    display: block;
+    
+    block-size: 80px;
+    padding: 1rem;
+    
+    
+}
+
+.sidebar-user {
+    display: flex;
+    align-items: center;
+}
+
+.preview {
+    font: var(--caption12regular);
+    color: var(--grey10);
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+.sidebar-userList {
+    display: flex;
+    max-inline-size: 27.5rem;
+}
+
+.name {
+    font: var(--body-16regular);
+    display: block;
+    padding-block-end: 19px;
+}
+
+.paloma{
+    
+    position: relative;
+    border-radius: 50%;
+    padding-block-start: 6px;
+ 
+}
+.user-content {
+    display: block;
+    overflow: auto;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    padding-inline-start: .5rem;
+}
+
+.preview{
+    display: block;
+    position: relative;
+    padding-block-start: 6px;
+
+}
+
+.user-date span {
+    font: var(--grey10);
+    font: var(--caption12regular)
+}
+
+.meh {
+    display: flex;
+    gap: 4px;
+    text-align: center;
+    align-items: center;
+    vertical-align: middle;
+    align-self: center;
+}
