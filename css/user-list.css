@@ -1,5 +1,5 @@
 .sidebar-header {
-    block-size: 80px;
+    block-size: var(--headerSize);
     background-color: var(--grey40);
 }
 
@@ -11,11 +11,8 @@
 
 .sidebar-userList {
     display: block;
-    
     block-size: 80px;
     padding: 1rem;
-    
-    
 }
 
 .sidebar-user {
@@ -77,3 +74,11 @@
     vertical-align: middle;
     align-self: center;
 }
+
+.sidebar-userListo {
+    display: flex;
+    max-inline-size: 27rem;
+    padding: 1rem;
+    background-color: var(--grey20);
+}
+
