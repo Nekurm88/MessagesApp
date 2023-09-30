@@ -9,3 +9,67 @@
     background-color: var(--grey40);
     padding: 0;
 }
+
+.button-smile {
+    border: none;
+    background-image: url(../icons/smile.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+    block-size: 40px;
+    inline-size: 40px;
+    cursor: pointer;
+    background-color: var(--grey40);
+    padding: 0;
+}
+
+.button-clip {
+    border: none;
+    background-image: url(../icons/paperclip.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+    block-size: 40px;
+    inline-size: 40px;
+    cursor: pointer;
+    background-color: var(--grey40);
+    padding: 0;
+}
+
+.button-clip {
+    border: none;
+    background-image: url(../icons/paperclip.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+    block-size: 40px;
+    inline-size: 40px;
+    cursor: pointer;
+    background-color: var(--grey40);
+    padding: 0;
+}
+
+.microfono {
+    border: none;
+    background-image: url(../icons/mic.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+    block-size: 40px;
+    inline-size: 40px;
+    cursor: pointer;
+    background-color: var(--grey40);
+    padding: 0;
+}
+
+.button-search:active {
+    transform: scale(.90);
+}
+
+.button-clip:active {
+    transform: scale(.90);
+}
+
+.microfono:active {
+    transform: scale(.90);
+}
+
+.button-smile:active {
+    transform: scale(.90);
+}

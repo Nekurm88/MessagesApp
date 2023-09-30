@@ -15,6 +15,7 @@
 .action-button {
     display: flex;
     gap: 17px;
+    padding-inline-start: 16px;
 }
 
 .action-secondary {
@@ -24,7 +25,7 @@
 
 .action-bar form {
     inline-size: 100%;
-    padding: 1rem;
+    padding-block: 1rem;
 }
 
 .action-bar input{ 

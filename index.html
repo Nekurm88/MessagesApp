@@ -3,11 +3,28 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Whatsapp</title>
+    <title>Messagesapp</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="./css/styles.css">
+    <link rel="apple-touch-icon" sizes="57x57" href="./favicon/apple-icon-57x57.png">
+    <link rel="apple-touch-icon" sizes="60x60" href="./favicon/apple-icon-60x60.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="./favicon/apple-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="./favicon/apple-icon-76x76.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="./favicon/apple-icon-114x114.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="./favicon/apple-icon-120x120.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="./favicon/apple-icon-144x144.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="./favicon/apple-icon-152x152.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="./favicon/apple-icon-180x180.png">
+    <link rel="icon" type="image/png" sizes="192x192"  href="./favicon/android-icon-192x192.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="./favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="96x96" href="./favicon/favicon-96x96.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="./favicon/favicon-16x16.png">
+    <link rel="manifest" href="/manifest.json">
+    <meta name="msapplication-TileColor" content="#ffffff">
+    <meta name="msapplication-TileImage" content="/ms-icon-144x144.png">
+    <meta name="theme-color" content="#ffffff">
         
 </head>
 
@@ -133,8 +150,22 @@
                         <span>Viernes</span>
                     </div>
             </div>
+            <div class="sidebar-userList">
+                <div class="sidebar-user">
+                    <img src="./images/usuario8.png" width="48px" height="48px" alt="">
+                </div>
+                    <div class="user-content">
+                        <span class="name">Pilar</span>
+                        <div class="meh">
+                            <img class="paloma" src="./icons/Whatsaap-check.png" width="16px" height="10px" alt="">
+                            <span class="preview">Amet minim mollit non deserunt ullamco est sit aliqua...</span>
+                        </div>
+                    </div>
+                    <div class="user-date">
+                        <span>Viernes</span>
+                    </div>
+            </div>
         </div>
-
       <div class="chat">
         <header class="header">
             <div class="header-primary">
@@ -153,10 +184,9 @@
             </div>
         </header>
         <div class="message-list">
-            <div class="date">Jueves</div>
             <div class="message is-sender">
                 <div class="message-body">
-                    <p class="message-text">Estoy enviando este mensaje</p>     
+                    <p class="message-text">Claro: https://www.google.com/maps?q=31.9996555,-116.5759683&hl=es-MX&gl=mx&entry=gps&lucs=swa&shorturl=1</p>     
                 </div>
                 <div class="message-details">
                     <span class="message-date">09:28 am</span>
@@ -165,32 +195,56 @@
             </div>
             <div class="message is-receiver">
                 <div class="message-body">
-                    <p class="message-text">Estoy recibiendo este mensaje</p>     
+                    <p class="message-text">Me puedes mandar la ubicación de su casa</p>     
                 </div>
                 <div class="message-details">
-                    <span class="message-date">09:28 am</span>
+                    <span class="message-date">09:27 am</span>
+                </div>
+            </div>
+            <div class="date">Jueves</div>
+        </div>
+        <div class="message-lista">
+            <div class="message is-receiver">
+                <div class="message-body">
+                    <p class="message-text">Ok gracias perdón por la tardanza pero yá quedó</p>     
+                </div>
+                <div class="message-details">
+                    <span class="message-date">11:29 am</span>
+                </div>
+            </div>
+            
+            <div class="message is-sender">
+                <div class="message-body">
+                    <p class="message-text">Claro. Sin problemas</p>     
+                </div>
+                <div class="message-details">
+                    <span class="message-date">11:28 am</span>
+                    <span class="message-status is-doubleCheck"></span>
+                </div>
+            </div>
+            
+            <div class="message is-receiver">
+                <div class="message-body">
+                    <p class="message-text">Buenos días disculpe yá está tu cuenta abierta pero para mañana de 9 A 12 podrás recibir al técnico</p>     
+                </div>
+                <div class="message-details">
+                    <span class="message-date">11:27 am</span>
                 </div>
             </div>
             <div class="date">Viernes</div>
+            
         </div>
+
         <div class="action-bar">
             <div class="action-button">
-                <button class="button">
-                    <i>smiley</i>
-                </button>
-                <button class="button">
-                    <i>clip</i>
-                </button>
+                <button class="button-smile" title="iconos"></button>
+                <button class="button-clip" title="adjuntar archivo"></button>
             </div>
             <div class="action-secondary">
                 <form class="search" action-role="search">
                 <input type="search" placeholder="Escribe un mensaje">
             </div>
-            <div class="microfono">
-                <button class="Microfono"></button>
-
-            </div>
-            
+            <button class="microfono" title="Enviar mensaje de voz"></button>
         </div>
       </div>
     </div>

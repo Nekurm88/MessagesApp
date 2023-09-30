@@ -16,6 +16,7 @@
     background-color: var(--white);
     align-self: flex-start;
     border-radius: 0 .5rem .5rem .5rem;
+    max-inline-size: 420px;
 }
 
 .message.is-receiver::before{
@@ -36,6 +37,7 @@
     background-color: var(--green1);
     align-self: flex-end;
     border-radius: .5rem 0rem .5rem .5rem;
+    max-inline-size: 420px;
 }
 
 .message.is-sender::before {
